@@ -4,7 +4,7 @@ let materialesDeCosntruccion = [
       nombre: "Cal Hidratada",
       descripcion: "Cal hidrat extra x 25kg",
       precio: 900,
-      imagen: "../multimedia/cal.jpg"
+      imagen: "multimedia/cal.jpg"
    },
    
    {
@@ -12,7 +12,7 @@ let materialesDeCosntruccion = [
       nombre: "Cemento Avellaneda",
       descripcion: "Cemento avellaneda x 50kg",
       precio: 2000,
-      imagen: "../multimedia/cemento.jpg"
+      imagen: "multimedia/cemento.jpg"
    },
    
    {
@@ -20,7 +20,7 @@ let materialesDeCosntruccion = [
       nombre: "Hidralit Avellaneda",
       descripcion: "Hidralit avelladneda x 40kg",
       precio: 1520,
-      imagen: "../multimedia/hidralit.jpg"
+      imagen: "multimedia/hidralit.jpg"
    },
 
    {
@@ -28,7 +28,7 @@ let materialesDeCosntruccion = [
       nombre: "Pegamento Ceramico",
       descripcion: "Pegamento ceramico x 25kg",
       precio: 1980,
-      imagen: "../multimedia/perfecto.jpg"
+      imagen: "multimedia/perfecto.jpg"
    },
 
    {
@@ -36,7 +36,7 @@ let materialesDeCosntruccion = [
       nombre: "Block x 13",
       descripcion: "Block x 13x19x40",
       precio: 50,
-      imagen: "../multimedia/blockx13.jpg"
+      imagen: "multimedia/blockx13.jpg"
    },
    
    {
@@ -44,7 +44,7 @@ let materialesDeCosntruccion = [
       nombre: "Block x 20",
       descripcion: "Block x 20x19x40",
       precio: 75,
-      imagen: "../multimedia/blockx20.jpg"
+      imagen: "multimedia/blockx20.jpg"
    },
    
    {
@@ -52,7 +52,7 @@ let materialesDeCosntruccion = [
       nombre: "Alambre de Atar",
       descripcion: "Alambre de Atar x kg n°17",
       precio: 1200,
-      imagen: "../multimedia/alambre.jpg"
+      imagen: "multimedia/alambre.jpg"
    },
    
    {
@@ -60,7 +60,7 @@ let materialesDeCosntruccion = [
       nombre: "Clavos PP",
       descripcion: "Clavos Punta Paris 2 pulgadas",
       precio: 1200,
-      imagen: "../multimedia/clavos.jpg"
+      imagen: "multimedia/clavos.jpg"
    },
  ];
 
