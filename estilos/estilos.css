@@ -1,0 +1,232 @@
+/*#region General */
+html{
+    height: 100%;
+}
+
+body{
+    position: relative;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    padding-bottom: 50px;
+}
+/*#endregion */
+
+/*#region Header */
+    .sticky {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
+
+    header{
+        color: #193452;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100px;
+        background-color: rgba(247, 236, 91, 0.884);
+        font-weight: bold;
+    }
+
+    nav ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav ul li a{
+        color: #193452;
+        text-decoration: none;
+        margin-right: 10px;
+    }
+
+    li{
+        display: inline;
+    }
+/*#endregion*/
+
+/*#region Main */
+.fondo{
+    background-image: url('https://bit.ly/3molYkv');
+    background-position: center;
+    color: black;
+    padding: 100px 0;
+    text-align: center;    
+}
+
+.fondo h2{
+    color: black;
+    font-size: 48px;
+    margin: 0;
+}
+
+.fondo p{
+    font-size: 24px;
+    margin: 20px 0 0 0;
+}
+
+h2{
+    margin-top: 2%;
+    text-align: center;
+    font-size: 38px;
+    color: #193452;
+}
+/* #region Carrito */
+#carrito{
+    display: flex;
+    justify-content: right;
+}
+
+#carrito svg{
+    height: 25px;
+    width: 30px;
+}
+
+#carrito h4 a{
+    margin-right: 80px;
+    font-weight: bold;
+    text-decoration: none;
+    color: blue;
+}
+/* #endregion */
+
+/*#region Productos */
+.MatCons{
+    margin: 50px 0;
+    margin-top: 15px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;  
+}
+
+.producto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-width: 20%;
+    height: 450px;
+    box-shadow: 5px 5px 5px 5px #0505052d;
+    padding: 30px;
+    border-radius: 3%;
+    margin: 15px;
+}
+
+.producto:hover{
+    border: 2px solid #193452;
+}
+
+.producto img{
+    display:block;
+    width: 100%;
+    height: 215px;
+}
+
+.producto h3{
+    font-size: 24px;
+    margin: 20px 0 10px 0;
+}
+
+.producto p{
+    font-size: 16px;
+    margin: 0;
+}
+
+.btn{
+    margin: 10px;
+    padding: 15px;
+    border-radius: 3%;
+    cursor: pointer;
+    color:black;
+    font-size: 15px;
+    border: none;
+}
+
+.btn:hover{
+    border: 1px solid black;
+}
+
+.btn:active{
+    background-color: green !important;
+}
+/* #endregion */
+
+/*#endregion*/
+
+/* #region Footer */
+footer{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    color: #193452;
+    padding: 10px;
+    bottom: 0;
+    height: 50px;
+    background-color: rgba(247, 236, 91, 0.884);
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer h6{
+    margin-bottom: 0;
+}
+
+footer a{
+    display: flex;
+    color: #193452;
+    text-decoration: none;
+    margin-right: 10px;
+    font-weight: bold; 
+}
+/* #endregion */
+
+/* #region Formulario contacto */
+form h2{
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+#presentacion{
+    background-color: rgba(247, 237, 91, 0.1);
+    border-radius: 15px;
+}
+
+#mainPres{
+    display: flex;
+    align-items: center;
+    min-height: calc(100vh - 150px);
+}
+/* #endregion */
+
+/* region Carrito */
+
+#mainCarr nav{
+    display: flex;
+    justify-content:center;
+}
+
+#contenedorCarr{
+    width: 500px;
+}
+
+#contenedorCarr div{
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+#contenedorCarr h3{
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#mainCarr nav button{
+    margin: 20px;
+    margin-inline: 60px;
+}
+/* endregion */
